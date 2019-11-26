@@ -32,7 +32,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[600],
+      backgroundColor: Colors.blue[600],
       body: Stack(
         alignment: Alignment.center,
         children: <Widget>[
@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
             width: 400,
             height: 600,
             child: Image.asset(
-              'assets/image.png',
+              'assets/todo.png',
               fit: BoxFit.contain,
             ),
           ),
